@@ -19,8 +19,8 @@ function toggleLanguage() {
                 <NuxtLink to="/aboutme" >
                     <li class="text-black text-xl hover:underline underline-offset-8 decoration-2 cursor-pointer">{{ $t('about') }}</li>
                 </NuxtLink>
-                <NuxtLink to="/contactme" >
-                    <li class="text-black text-xl hover:underline underline-offset-8 decoration-2 cursor-pointer">{{ $t('contact') }}</li>
+                <NuxtLink to="/projects" >
+                    <li class="text-black text-xl hover:underline underline-offset-8 decoration-2 cursor-pointer">{{ $t('projects') }}</li>
                 </NuxtLink>
                  <button @click="toggleLanguage" class="flex items-center gap-2">
                     <Icon name="mdi:language" class="text-2xl text-black" />
