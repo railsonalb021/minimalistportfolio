@@ -2,5 +2,18 @@
   "frontend": "Desenvolvedor Front-End",
   "home": "INÍCIO",
   "about": "SOBRE MIM",
-  "projects": "PROJETOS"
+  "projects": "PROJETOS",
+  "myexperience": "Minha Experiência",
+  "present": "2025 - Presente",
+  "timelinetitle": "Desenvolvedor Front-End — Estagiário",
+  "timelinesubtitle": "Centro Brasileiro de Pesquisas Físicas - RJ",
+  "timelinedescription": "Construindo sites modernos, responsivos e interativos usando Vue, Nuxt e Tailwind CSS.",
+  "timelinetitleti": "Suporte de T.I — Estagiário",
+  "timelinesubtitleti": "Centro Brasileiro de Pesquisas Físicas - RJ",
+  "timelinedescriptionti": "Manutenção de computadores, instalação de sistemas operacionais e impressoras.",
+  "next": "Próximo",
+  "aboutme": "Sobre mim",
+  "aboutmedescription": "Atualmente, estou cursando Ciência da Computação na UNESA e possuo nível intermediário de inglês. Tenho experiência prática em suporte de TI, manutenção de computadores e conhecimento de sistemas operacionais (Windows, Linux e macOS), além de desenvolvimento web front-end (Vue, Nuxt, Tailwind e Typescript). Sou proativo e tenho muita vontade de aprender. Atualmente, trabalho como estagiário em desenvolvimento web front-end.",
+  "titleproject": "Projeto: Marcenaria Maranhão",
+  "descriptionproject": "Fazemos qualquer tipo de Trabalho com madeira. Armários Embutidos - Armário de Cozinha - Portões de Garagem - Colocação de Portas e Janelas - Assoalhos - Lambris e Rodapé - Forragens em Fórmica - Lustres em Geral - Instalaçao Comerciasis - ETC."
 }

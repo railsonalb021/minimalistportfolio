@@ -2,5 +2,18 @@
   "frontend": "Front End Developer",
   "home": "HOME",
   "about": "ABOUT ME",
-  "projects": "PROJECTS"
+  "projects": "PROJECTS",
+  "myexperience": "My Experience",
+  "present": "2025 - Present",
+  "timelinetitle": "Front-End Developer — Intern",
+  "timelinesubtitle": "Brazilian Center for Physics Research - RJ",
+  "timelinedescription": "Building modern, responsive and interactive websites using Vue, Nuxt and Tailwind CSS.",
+  "timelinetitleti": "IT Support — Intern",
+  "timelinesubtitleti": "Brazilian Center for Physics Research - RJ",
+  "timelinedescriptionti": "Computer maintenance, installation of operating systems and printers.",
+  "next": "Next",
+  "aboutme": "About me",
+  "aboutmedescription": "I'm currently pursuing a Computer Science degree at UNESA and hold an intermediate English degree. I have practical experience in IT support, computer maintenance, and knowledge of operating systems (Windows, Linux, and macOS), as well as front-end web development (Vue, Nuxt, Tailwind, and Typescript). I'm proactive and eager to learn. I'm currently working as a front-end web development intern.",
+  "titleproject": "Project: Maranhão Carpentry",
+  "descriptionproject": "We do any kind of work with wood. Built-in Cabinets - Kitchen Cabinet - Garage Gates - Installation of Doors and Windows - Flooring - Wainscoting and Baseboards - Laminate and Formica - General Chandeliers - Commercial Installation - ETC."
 }
