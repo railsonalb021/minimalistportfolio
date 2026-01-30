@@ -22,16 +22,16 @@ function toggleMenu() {
     <div class="hidden md:flex px-10 items-center">
       <ul class="flex items-center font-extralight space-x-6">
         <NuxtLink to="/">
-          <li class="text-black text-xl hover:underline underline-offset-8 decoration-2 cursor-pointer">{{ $t('home') }}</li>
+          <li class="text-white text-xl hover:underline underline-offset-8 decoration-2 cursor-pointer">{{ $t('home') }}</li>
         </NuxtLink>
         <NuxtLink to="/aboutme">
-          <li class="text-black text-xl hover:underline underline-offset-8 decoration-2 cursor-pointer">{{ $t('about') }}</li>
+          <li class="text-white text-xl hover:underline underline-offset-8 decoration-2 cursor-pointer">{{ $t('about') }}</li>
         </NuxtLink>
         <NuxtLink to="/projects">
-          <li class="text-black text-xl hover:underline underline-offset-8 decoration-2 cursor-pointer">{{ $t('projects') }}</li>
+          <li class="text-white text-xl hover:underline underline-offset-8 decoration-2 cursor-pointer">{{ $t('projects') }}</li>
         </NuxtLink>
         <button @click="toggleLanguage" class="flex items-center gap-2">
-          <Icon name="mdi:language" class="text-2xl text-black" />
+          <Icon name="mdi:language" class="text-2xl text-white" />
           {{ locale.value }}
         </button>
       </ul>
@@ -41,7 +41,7 @@ function toggleMenu() {
       <button @click="toggleMenu" class="focus:outline-none">
         <Icon
           :name="isMenuOpen ? 'mdi:close' : 'mdi:menu'"
-          class="text-3xl text-black"
+          class="text-3xl text-white"
         />
       </button>
     </div>
@@ -49,20 +49,20 @@ function toggleMenu() {
     <transition name="fade">
       <div
         v-if="isMenuOpen"
-        class="absolute top-20 right-5 bg-white shadow-lg rounded-2xl p-5 flex flex-col space-y-4 lg:hidden"
+        class="absolute top-20 right-5 bg-white/10 backdrop-blur-xl shadow-lg rounded-2xl p-5 flex flex-col space-y-4 lg:hidden"
       >
         <NuxtLink to="/" @click="isMenuOpen = false">
-          <li class="list-none text-black text-lg hover:underline underline-offset-8 decoration-2 cursor-pointer">{{ $t('home') }}</li>
+          <li class="list-none text-white text-lg hover:underline underline-offset-8 decoration-2 cursor-pointer">{{ $t('home') }}</li>
         </NuxtLink>
         <NuxtLink to="/aboutme" @click="isMenuOpen = false">
-          <li class="list-none text-black text-lg hover:underline underline-offset-8 decoration-2 cursor-pointer">{{ $t('about') }}</li>
+          <li class="list-none text-white text-lg hover:underline underline-offset-8 decoration-2 cursor-pointer">{{ $t('about') }}</li>
         </NuxtLink>
         <NuxtLink to="/projects" @click="isMenuOpen = false">
-          <li class="list-none text-black text-lg hover:underline underline-offset-8 decoration-2 cursor-pointer">{{ $t('projects') }}</li>
+          <li class="list-none text-white text-lg hover:underline underline-offset-8 decoration-2 cursor-pointer">{{ $t('projects') }}</li>
         </NuxtLink>
         <button
           @click="toggleLanguage"
-          class="flex items-center gap-2 border-t pt-2 text-black"
+          class="flex items-center gap-2 border-t pt-2 text-white"
         >
           <Icon name="mdi:language" class="text-2xl" />
           {{ locale.value }}

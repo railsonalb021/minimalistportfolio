@@ -19,12 +19,12 @@
       <div class="flex flex-col justify-between">
         <div>
           <h1
-            class="text-xl sm:text-2xl font-mono text-black mb-3 sm:mb-4 text-center md:text-left"
+            class="text-xl sm:text-2xl font-mono text-white mb-3 sm:mb-4 text-center md:text-left"
           >
             {{ $t('titleproject') }}
           </h1>
           <p
-            class="text-black font-mono text-sm sm:text-base text-justify leading-relaxed"
+            class="text-white font-mono text-sm sm:text-base text-justify leading-relaxed"
           >
             {{ $t('descriptionproject') }}
           </p>
@@ -34,12 +34,12 @@
           class="mt-6 flex flex-col sm:flex-row justify-center md:justify-center gap-3 sm:gap-4"
         >
           <button
-            class="px-4 py-2 rounded-xl bg-black hover:bg-gray-700 transition text-white text-sm sm:text-base"
+            class="px-4 py-2 rounded-xl bg-white hover:bg-gray-300 transition text-black text-sm sm:text-base"
           >
             GitHub
           </button>
           <button
-            class="px-4 py-2 rounded-xl border border-black hover:bg-black hover:text-white transition text-black text-sm sm:text-base"
+            class="px-4 py-2 rounded-xl border border-black hover:bg-black hover:text-white transition text-white text-sm sm:text-base"
           >
             Visualizar
           </button>
@@ -56,23 +56,23 @@
             class="w-10 h-10 rounded-full border border-white/20"
           />
           <div class="text-center sm:text-left">
-            <h3 class="text-black text-sm font-medium">Railson Vieira</h3>
-            <p class="text-black text-xs">@mec.dev</p>
+            <h3 class="text-white text-sm font-medium">Railson Vieira</h3>
+            <p class="text-white text-xs">@mec.dev</p>
           </div>
         </div>
 
         <div class="flex gap-6">
           <Icon
             name="mdi:instagram"
-            class="w-6 h-6 text-black cursor-pointer transition-all ease-out duration-300 hover:text-gray-500 hover:scale-110"
+            class="w-6 h-6 text-white cursor-pointer transition-all ease-out duration-300 hover:text-gray-500 hover:scale-110"
           />
           <Icon
             name="mdi:whatsapp"
-            class="w-6 h-6 text-black cursor-pointer transition-all ease-out duration-300 hover:text-gray-500 hover:scale-110"
+            class="w-6 h-6 text-white cursor-pointer transition-all ease-out duration-300 hover:text-gray-500 hover:scale-110"
           />
           <Icon
             name="mdi:email-outline"
-            class="w-6 h-6 text-black cursor-pointer transition-all ease-out duration-300 hover:text-gray-500 hover:scale-110"
+            class="w-6 h-6 text-white cursor-pointer transition-all ease-out duration-300 hover:text-gray-500 hover:scale-110"
           />
         </div>
       </div>
